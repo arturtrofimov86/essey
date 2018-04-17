@@ -1,6 +1,14 @@
+.clearfix {
+    overflow: auto;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
 body{
     background: #fff000;
-    overflow:hidden;
+    overflow: hidden;
 }
 .hsContent{
     text-align: center;
@@ -459,6 +467,33 @@ h3{
     transform:rotate(10deg);
     -webkit-transform: rotate(10deg);
     z-index: 10000;
+}
+.links-content{
+    bottom:0;
+    left:0;
+    right:0;
+    overflow:hidden;
+    padding:50px;
+}
+.links-content a{
+    display: block;
+    text-align: left;
+    padding-bottom:10px;
+    color:#0c3eb1;
+}
+.links-content .left-col{
+    float:left;
+  
+}
+.links-content .left-col a:nth-of-type(2n){
+    color:#ad1830;
+}
+.links-content .right-col a:nth-of-type(2n+1){
+    color:#ad1830;
+}
+.links-content .right-col{
+    float:right;
+    
 }
 @media(max-width:1920px){
     .last-photo{
