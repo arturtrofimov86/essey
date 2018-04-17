@@ -1,5 +1,6 @@
 body{
     background: #fff000;
+    overflow:hidden;
 }
 .hsContent{
     text-align: center;

@@ -30,10 +30,10 @@ and open the template in the editor.
         <section id="slide-2" class="homeSlide" data-0="top:100%" data-1000="height:100%; width:100%; top:-50%;" data-16000="top:-50%;" data-16500="top:-100%">
             <div class="bcg" data-anchor-target="#slide-2"></div>
         </section>
-        <section id="slide-4" class="homeSlide" data-17000="top:100%" data-18500="height:100%; width:100%; top:-50%;">
+        <section id="slide-4" class="homeSlide" data-17000="top:100%" data-18500="height:100%; width:100%; top:-50%;" data-71500="height:100%; width:100%; top:-50%;" data-71800="top:-100%">
             <div class="bcg" data-anchor-target="#slide-4"></div>
         </section>
-        <section id="slide-5" class="homeSlide" data-72000="top:100%" data-73500="height:100%; width:100%; top:-50%;">
+        <section id="slide-5" class="homeSlide" data-72000="top:100%" data-73500="height:100%; width:100%; top:-50%;" data-75500="top:-100%">
             <div class="bcg" data-anchor-target="#slide-5"></div>
         </section>
         <section id="slide-3">
@@ -261,7 +261,7 @@ and open the template in the editor.
                 <figure class="man" data-67000="bottom:-200%;" data-68000="bottom:0" data-69000="bottom:-200%">
                     <img src="img/svg/16-silhouette.svg">
                 </figure>
-                <figure class="last-photo"  data-71000="top:-250%" data-75000="top:10%">
+                <figure class="last-photo"  data-71000="top:-250%" data-75000="top:10%" data-76000="top:-250%">
                     <img src="img/photo/17-polaroid photo.png" alt=""/>                   
                 </figure>
                 <figure class="laptop-img-wrap" data-1000='opacity:0;' data-1600='opacity:1;'>
@@ -291,13 +291,13 @@ and open the template in the editor.
                         <img class="battery2" data-38000='opacity:0;' data-40000='opacity:1;' data-45000="opacity:0;" src="img/svg/11-battery02.svg">
                     </figure>
                     <img class="laptop-img" data-1200="opacity:1" data-70000="opacity:1" data-72000="opacity:0" src="img/svg/02-laptop.svg"/>
-                    <img class="laptop-img-close" data-71000="opacity:0" data-72000="opacity:1" src="img/svg/17-laptop.svg"/>
+                    <img class="laptop-img-close" data-71000="opacity:0;" data-72000="opacity:1; margin:0" data-76000="margin-top:-35%" src="img/svg/17-laptop.svg"/>
                 </figure>
-                <div class="time" data-0="opacity:0;" data-1500="opacity:1;">
+                <div class="time" data-0="opacity:0;" data-1500="opacity:1;" data-75000="bottom:3%;" data-76000="bottom:80%">
                     <div>Time</div>
                     <div><span></span></div>
                 </div>
-                <div class="money" data-0="opacity:0;" data-1500="opacity:1;">
+                <div class="money" data-0="opacity:0;" data-1500="opacity:1;" data-75000="bottom:3%;" data-76000="bottom:80%">
                     <div>money</div>
                     <div><span></span></div>
                 </div>
@@ -361,22 +361,7 @@ and open the template in the editor.
 
                 }
             });
-            skrollr.init({
-                constants: {
-                    startAnchor: function () {
-
-                        var width = screen.width;
-                        var startAnchor;
-                        if (width > 600) {
-                            startAnchor = 500;
-                        } else if (width > 400) {
-                            startAnchor = 2115;
-                        }
-
-                        return startAnchor;
-                    }
-                }
-            });
+          
         </script>
     </body>
 </html>
