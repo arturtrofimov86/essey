@@ -3,6 +3,9 @@
     height:100%;
     min-height:100%;
 }
+figure{
+    z-index: 1000000000;
+}
 .clearfix {
     overflow: auto;
 }
