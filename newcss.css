@@ -31,10 +31,11 @@ h3{
 .page-intro p{
     color: black;
     font-family: Roboto;
-    font-size: 16px;
+    font-size: 48px;
     font-weight: 400;
     text-align: center;
     padding-bottom:100px;
+    margin:0;
 }
 .bcg {
     background-position: center center;
@@ -52,6 +53,7 @@ h3{
 }
 #slide-2 .bcg{
     background-image:url(img/photo/bg/priscilla-du-preez-293218.jpg);
+    background-position: center -770px;
 }
 #slide-3 .hsContent{
     z-index: 100000;
@@ -248,32 +250,38 @@ h3{
 .line1{
     left: 14%;
     max-width: 623px;
-    top: -28%;
+    top: -24%;
+    height:20px;
 }
 .line2{
     left: 14%;
     max-width: 623px;
     top:-15%;
+    height:20px;
 }
 .line3{
     left: 14%;
     max-width: 623px;
     top:-5%;
+    height:20px;
 }
 .line4{
     left: 14%;
     max-width: 623px;
     top: 10%;
+    height:20px;
 }
 .line5{
     left: 14%;
     max-width: 623px;
     top: 22%;
+    height:20px;
 }
 .line6{
     left: 14%;
     max-width: 623px;
     top: 35%;
+    height:20px;
 }
 .load-bar-per{
     height: 100px;
@@ -480,10 +488,11 @@ h3{
     text-align: left;
     padding-bottom:10px;
     color:#0c3eb1;
+    font-size:12px;
 }
 .links-content .left-col{
     float:left;
-  
+
 }
 .links-content .left-col a:nth-of-type(2n){
     color:#ad1830;
@@ -493,7 +502,7 @@ h3{
 }
 .links-content .right-col{
     float:right;
-    
+
 }
 @media(max-width:1920px){
     .last-photo{
@@ -686,6 +695,15 @@ h3{
         width: 101px;
         top: 22%;
     }
+    .time{
+        left:10%;
+    }
+    .money{
+        right:10%;
+    }
+    .time div:last-of-type, .money div:last-of-type{
+        font-size:70px;
+    }
 }
 @media(max-width:1366px){
     h1{
@@ -697,7 +715,7 @@ h3{
         height:300px;
     }
     .page-intro p{
-        font-size:14px;
+        font-size:24px;
     }
     .laptop-img-wrap{
         width:500px;
@@ -857,6 +875,7 @@ h3{
     .coffee3{
         top:17%;
     }
+
 }
 @media(max-width:1280px){
     .coffee3{
@@ -1005,6 +1024,6 @@ h3{
         width: 106px;
     }
     .last-photo {
-    width: 215px;
-}
+        width: 215px;
+    }
 }
